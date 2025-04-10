@@ -1396,9 +1396,9 @@
                 <div class="profile-sidebar">
                     <div class="profile-card">
                         <div class="profile-pic">
-                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile Picture">
+                            <img src="      " alt="Profile Picture">
                         </div>
-                        <h4 id="profile-username">John Doe</h4>
+                        <h4 id="profile-username"></h4>
                         <p>Student</p>
                         <p>Member since: <span id="member-since">2023</span></p>
                     </div>
@@ -1421,17 +1421,17 @@
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="first-name">First Name</label>
-                                    <input type="text" id="first-name" value="John" required>
+                                    <input type="text" id="first-name" value=" " required>
                                 </div>
                                 <div class="form-group">
                                     <label for="last-name">Last Name</label>
-                                    <input type="text" id="last-name" value="Doe" required>
+                                    <input type="text" id="last-name" value=" " required>
                                 </div>
                             </div>
                             
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" id="profile-email" value="john.doe@example.com" required>
+                                <input type="email" id="profile-email" value=" " required>
                             </div>
                             
                             <div class="form-group">
@@ -1446,7 +1446,7 @@
                             
                             <div class="form-group">
                                 <label for="bio">Bio</label>
-                                <textarea id="bio" rows="4" placeholder="Tell us about yourself...">I'm a passionate learner interested in mathematics and science. My goal is to become an engineer.</textarea>
+                                <textarea id="bio" rows="4" placeholder="Tell us about yourself..."> </textarea>
                             </div>
                             
                             <button type="submit" class="btn">Save Changes</button>
